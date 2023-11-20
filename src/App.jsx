@@ -8,6 +8,7 @@ import News from "./Pages/news";
 import Employees from "./Pages/emloyees";
 import Info from "./Pages/info";
 import Active from "./Pages/active";
+import Footer from "./compoments/footer";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                         </Routes>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </Router>
     );

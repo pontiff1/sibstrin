@@ -1,6 +1,4 @@
 .navbar{
-    position: sticky;
-    left: 30vh;
     width: 300px;
 }
 .navbar__links{
