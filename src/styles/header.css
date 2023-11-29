@@ -34,11 +34,6 @@
 
 .header-top__links > a {
     margin-left: 5px;
-    transition: color 0.3s;
-}
-
-.header-top__links > a:hover {
-    color: #5D5C61;
 }
 
 .header-top__logo {
@@ -67,25 +62,10 @@
     background-color: #7395AE;
     width: 300px;
     height: 60px;
-
+    transition: all 0.3s;
+    position: relative;
 }
 
 .header-bot__item:not(:last-child) {
     margin-right: 10px;
 }
-
-.header-bot__item > a {
-    transition: color 0.3s
-}
-
-.header-bot__item > a:hover {
-    color: #5D5C61;
-}
-
-.header-bot > a {
-    /*margin: 5px;*/
-    /*padding: 30px 12px;*/
-    /*background-color: #7395AE;*/
-    /*border-radius: 30px;*/
-}
-

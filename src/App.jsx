@@ -5,9 +5,7 @@ import Navbar from "./compoments/navbar";
 import Main from "./Pages/main";
 import Enrollee from "./Pages/enrollee";
 import News from "./Pages/news";
-import Employees from "./Pages/emloyees";
-import Info from "./Pages/info";
-import Active from "./Pages/active";
+import Employees from "./Pages/employees";
 import Footer from "./compoments/footer";
 
 function App() {
@@ -23,8 +21,6 @@ function App() {
                             <Route path="/enrollee" element={<Enrollee />} />
                             <Route path="/news" element={<News />} />
                             <Route path="/employees" element={<Employees />} />
-                            <Route path="/info" element={<Info />} />
-                            <Route path="/active" element={<Active />} />
                         </Routes>
                     </div>
                 </div>

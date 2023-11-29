@@ -1,21 +1,29 @@
 .navbar{
     width: 300px;
+    min-width: 300px;
 }
 .navbar__links{
     padding: 10px;
     border-radius: 30px;
     background-color: #557A95;
 }
+.navbar__img{
+    display: flex;
+}
+
 .navbar__img > img{
     height: 50px;
     width: 50px;
     border-radius: 30px;
 }
 .navbar__item{
+    display: block;
     background-color: #7395AE;
     border-radius: 30px;
     text-align: center;
     padding: 10px;
+    transition: all 0.3s;
+    position: relative;
 }
 .navbar__item:not(:last-child){
     margin-bottom: 12px;
@@ -33,8 +41,7 @@
     padding-bottom: 10px;
 }
 .news-content{
-    display: flex;
-    text-align: left;
+
 }
 
 .navbar__item{
@@ -43,8 +50,9 @@
 .navbar__title {
     margin-bottom: 10px;
     font-size: 16px;
+    text-align: right;
 }
 
 .navbar__desc {
-    margin-top: 10px;
+    text-align: left;
 }

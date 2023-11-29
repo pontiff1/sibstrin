@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header container" id="header">
             <div className="header-top">
                 <div className="header-top__logo">
-                    <img src={logo} alt="logo1" />
+                    <img src={logo} alt="logo1"/>
                 </div>
                 <div className="header-top__info">
                     <div className="header-top__title">
@@ -24,26 +24,20 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bot">
-                <ul className="header-bot__list">
-                    <li className="header-bot__item">
-                        <a href="http://www.sibstrin.ru/" target="_blank">Главная</a>
-                    </li>
-                    <li className="header-bot__item" >
-                        <a href="http://www.sibstrin.ru/news/" target="_blank">Новости</a>
-                    </li>
-                    <li className="header-bot__item" >
-                        <a href="http://www.sibstrin.ru/sveden/struct/" target="_blank">Структура</a>
-                    </li>
-                    <li className="header-bot__item" >
-                        <a href="https://dpo.sibstrin.ru/" target="_blank">Дополнительное образование</a>
-                    </li>
-                    <li className="header-bot__item" >
-                        <a href="http://www.sibstrin.ru/struct/cmd/" target="_blank">Международное сотрудничество</a>
-                    </li>
-                    <li className="header-bot__item" >
-                        <a href="http://www.sibstrin.ru/sveden/" target="_blank">Сведения об организации</a>
-                    </li>
-                </ul>
+                <div className="header-bot__list">
+                    <a className="header-bot__item btn-effect" href="http://www.sibstrin.ru/"
+                       target="_blank">Главная</a>
+                    <a className="header-bot__item btn-effect" href="http://www.sibstrin.ru/news/"
+                       target="_blank">Новости</a>
+                    <a className="header-bot__item btn-effect" href="http://www.sibstrin.ru/sveden/struct/"
+                       target="_blank">Структура</a>
+                    <a className="header-bot__item btn-effect" href="https://dpo.sibstrin.ru/" target="_blank">Дополнительное
+                        образование</a>
+                    <a className="header-bot__item btn-effect" href="http://www.sibstrin.ru/struct/cmd/"
+                       target="_blank">Международное сотрудничество</a>
+                    <a className="header-bot__item btn-effect" href="http://www.sibstrin.ru/sveden/" target="_blank">Сведения
+                        об организации</a>
+                </div>
             </div>
         </header>
     );

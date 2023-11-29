@@ -9,36 +9,28 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-top">
                 <div className="footer-top__left">
-                    <ul className="footer-top__list">
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/struct/profkom/" target="_blank">Профком работников
-                                НГАСУ(Сибстрин)</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/files/vorotnikov/%D0%90kkr_19_05_2020.pdf" target="_blank">Приложения
-                                к свидетельству о государственной аккредитации</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/sveden/document/info/" target="_blank">Сведения о
-                                доходах</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/sveden/" target="_blank">Контактная информация</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/phones/" target="_blank">Телефонная книга</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/feedback" target="_blank">Обращения граждан</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/recruits/" target="_blank">Реестр студентов-призывников</a>
-                        </li>
-                        <li className="footer-top__item">
-                            <a href="http://www.sibstrin.ru/structure/" target="_blank">Наглядная информация о структуре
-                                официального сайта</a>
-                        </li>
-                    </ul>
+                    <div className="footer-top__list">
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/struct/profkom/"
+                           target="_blank">Профком работников
+                            НГАСУ(Сибстрин)</a>
+                        <a className="footer-top__item btn-effect"
+                           href="http://www.sibstrin.ru/files/vorotnikov/%D0%90kkr_19_05_2020.pdf" target="_blank">Приложения
+                            к свидетельству о государственной аккредитации</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/sveden/document/info/"
+                           target="_blank">Сведения о
+                            доходах</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/sveden/"
+                           target="_blank">Контактная информация</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/phones/"
+                           target="_blank">Телефонная книга</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/feedback"
+                           target="_blank">Обращения граждан</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/recruits/"
+                           target="_blank">Реестр студентов-призывников</a>
+                        <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/structure/"
+                           target="_blank">Наглядная информация о структуре
+                            официального сайта</a>
+                    </div>
                 </div>
                 <div className="footer-top__mid">
                     <a href="http://www.sibstrin.ru/files/ngasu_licens/01_big.jpg">
@@ -77,20 +69,24 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bot">
-                <ul className="footer-bot__list">
-                    <li className="footer-bot__item"><a href="http://www.edu.ru/">
+                <div className="footer-bot__list">
+                    <a className="footer-bot__item btn-effect"
+                       href="http://www.edu.ru/">
                         Федеральный портал "Российское образование"
-                    </a></li>
-                    <li className="footer-bot__item"><a href="https://www.minobrnauki.gov.ru/">
+                    </a>
+                    <a className="footer-bot__item btn-effect"
+                       href="https://www.minobrnauki.gov.ru/">
                         Министерство науки и высшего образования Российской Федерации
-                    </a></li>
-                    <li className="footer-bot__item"><a href="http://school-collection.edu.ru/">
+                    </a>
+                    <a className="footer-bot__item btn-effect"
+                       href="http://school-collection.edu.ru/">
                         Единая коллекция цифровых образовательных ресурсов
-                    </a></li>
-                    <li className="footer-bot__item"><a href="http://fcior.edu.ru/">
+                    </a>
+                    <a className="footer-bot__item btn-effect"
+                       href="http://fcior.edu.ru/">
                         Федеральный центр информационно-образовательных ресурсов
-                    </a></li>
-                </ul>
+                    </a>
+                </div>
             </div>
         </footer>
     );

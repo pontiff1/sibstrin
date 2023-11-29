@@ -1,0 +1,44 @@
+.section-employees {
+    background-color: #557A95;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.section-employees__content {
+    background-color: #7395AE;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.section-employees__title {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.employees > p{
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.employees > p:hover{
+    color: #5D5C61;
+}
+.employees__profile {
+    padding: 10px;
+    background-color: #557A95;
+    border-radius: 30px;
+}
+
+.employees__desc {
+}
+
+.employees__desc > p{
+    padding: 3px;
+}
+.employees__profile > img{
+    max-width: 350px;
+    border-radius: 30px;
+}

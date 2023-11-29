@@ -7,7 +7,7 @@
 
 .footer-top {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer-top__left {
@@ -18,10 +18,13 @@
 }
 
 .footer-top__item {
+    display: block;
     text-align: center;
     background-color: #7395AE;
     border-radius: 30px;
     padding: 10px;
+    transition: all 0.3s;
+    position: relative;
 }
 
 .footer-top__item:not(:last-child) {
@@ -91,6 +94,8 @@
     background-color: #7395AE;
     padding: 10px;
     border-radius: 30px;
+    transition: all 0.3s;
+    position: relative;
 }
 
 .footer-bot__item:not(:last-child){
