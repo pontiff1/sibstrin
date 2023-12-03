@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/header.css'
 import logo from '../img/logo1.png'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faVk, faTelegram, faYoutube} from '@fortawesome/free-brands-svg-icons';
+
 
 const Header = () => {
     return (
@@ -17,9 +20,15 @@ const Header = () => {
                     </div>
                     <div className="header-top__links">
                         <p>Мы в соцсетях:</p>
-                        <a href="https://vk.com/hracy" target="_blank">VK</a>
-                        <a href="https://t.me/ngasusibstrin" target="_blank">TG</a>
-                        <a href="https://www.youtube.com/channel/UClGUmecsfygSQ3VD20LH6Sw/" target="_blank">YT</a>
+                        <a href="https://vk.com/hracy" target="_blank">
+                            <FontAwesomeIcon icon={faVk} size="2x"/>
+                        </a>
+                        <a href="https://t.me/ngasusibstrin" target="_blank">
+                            <FontAwesomeIcon icon={faTelegram} size="2x"/>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UClGUmecsfygSQ3VD20LH6Sw/" target="_blank">
+                            <FontAwesomeIcon icon={faYoutube} size="2x"/>
+                        </a>
                     </div>
                 </div>
             </div>

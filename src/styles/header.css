@@ -1,7 +1,6 @@
 .header {
-    background-color: #7395AE;
-    border-radius: 30px;
-    padding: 10px;
+    background-color: #212121;
+    padding: 10px 30vh;
 }
 
 .header-top {
@@ -31,6 +30,11 @@
     justify-content: flex-start;
     margin-top: 10px;
 }
+.header-top__links > p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
 
 .header-top__links > a {
     margin-left: 5px;
@@ -42,8 +46,6 @@
 
 .header-bot {
     margin-top: 12px;
-    border-radius: 30px;
-    background-color: #557A95;
     padding: 12px;
     font-size: 18px;
 }
@@ -58,8 +60,9 @@
     align-items: center;
     text-align: center;
     padding: 10px;
-    border-radius: 30px;
-    background-color: #7395AE;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
     width: 300px;
     height: 60px;
     transition: all 0.3s;

@@ -1,14 +1,6 @@
-.section-employees {
-    background-color: #557A95;
-    padding: 10px;
-    border-radius: 30px;
-    width: 100%;
-}
 
 .section-employees__content {
-    background-color: #7395AE;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 0 10px;
 }
 
 .section-employees__title {
@@ -28,8 +20,8 @@
 }
 .employees__profile {
     padding: 10px;
-    background-color: #557A95;
-    border-radius: 30px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 10px;
 }
 
 .employees__desc {

@@ -1,27 +1,28 @@
 .footer {
-    background-color: #7395AE;
-    border-radius: 30px;
-    padding: 10px;
+    background-color: #212121;
+    padding: 0 30vh;
     margin-top: 10px;
 }
 
 .footer-top {
+    padding-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-top__left {
-    background-color: #557A95;
-    border-radius: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 10px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .footer-top__item {
     display: block;
     text-align: center;
-    background-color: #7395AE;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
     transition: all 0.3s;
     position: relative;
@@ -33,71 +34,63 @@
 
 .footer-top__mid {
     display: flex;
-    background-color: #557A95;
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     margin-left: 10px;
 }
 
 .footer-top__mid > a {
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 .footer-top__mid > a > img {
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .footer-top__right {
     text-align: center;
-    background-color: #557A95;
-    border-radius: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255, 0.5);
     padding: 10px;
     margin-left: 10px;
 }
 
-.footer-top__partners{
+.footer-top__partners {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
 .footer-top__content {
-    background-color: #7395AE;
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 10px;
     margin: 5px;
 }
 
 .footer-top__content > a {
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 .footer-top__content > a > img {
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
-.footer-bot{
-    background-color: #557A95;
-    padding: 10px;
-    border-radius: 30px;
-    margin-top: 10px;
+.footer-bot {
+    padding: 10px 0;
 }
 
-.footer-bot__list{
+.footer-bot__list {
     display: flex;
 }
 
-.footer-bot__item{
+.footer-bot__item {
     text-align: center;
-    background-color: #7395AE;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 10px;
     transition: all 0.3s;
     position: relative;
 }
 
-.footer-bot__item:not(:last-child){
+.footer-bot__item:not(:last-child) {
     margin-right: 10px;
 }
