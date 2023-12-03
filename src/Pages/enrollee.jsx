@@ -25,33 +25,33 @@ const Enrollee = () => {
                     <h3>Направления подготовки</h3>
                     <div className="hr"></div>
                     <ul className="section-enrollee__list">
-                        <li className="section-enrollee__item"> БАКАЛАВРИАТ
-                            <ul className="section-enrollee__list">
+                        <li className="section-enrollee__item"> Бакалавриат
+                            <ol className="section-enrollee__list">
                                 <li className="section-enrollee__item">
                                     Направление «Строительство»:
-                                    <ul className="section-enrollee__list">
+                                    <ol type="a" className="section-enrollee__list">
                                         <li><a
                                             href="http://www.sibstrin.ru/struct/chair/viv/abinurient_viv/"> Водоснабжение
                                             и водоотведение.</a></li>
                                         <li><a href="http://www.sibstrin.ru/struct/chair/gtbe/abitur/"> Гидротехническое
                                             строительство.</a></li>
                                         <li><a href="#"> Теплогазоснабжение и вентиляция.</a></li>
-                                    </ul>
+                                    </ol>
                                 </li>
                                 <li className="section-enrollee__item">
                                     Направление «Природообустройство и водопользование»:
-                                    <ul className="section-enrollee__list">
+                                    <ol type="a" className="section-enrollee__list">
                                         <li><a href="http://www.sibstrin.ru/struct/chair/gtbe/abitur/"> Комплексное
                                             использование и охрана водных ресурсов.</a></li>
-                                    </ul>
+                                    </ol>
                                 </li>
-                            </ul>
+                            </ol>
                         </li>
                     </ul>
 
                     <ul className="section-enrollee__list">
-                        <li className="section-enrollee__item"> СПЕЦИАЛИТЕТ
-                            <ul className="section-enrollee__list">
+                        <li className="section-enrollee__item"> Специалитет
+                            <ol className="section-enrollee__list">
                                 <li className="section-enrollee__item">
                                     <a href="http://www.sibstrin.ru/struct/chair/geodez/abitur/"> Специальность
                                         «Прикладная геодезия».</a>
@@ -60,22 +60,22 @@ const Enrollee = () => {
                                     <a href="http://www.sibstrin.ru/struct/chair/geodez/abitur/"> Специализация
                                         «Геодезическое обеспечение строительного надзора и экспертиз».</a>
                                 </li>
-                            </ul>
+                            </ol>
                         </li>
                     </ul>
 
                     <ul className="section-enrollee__list">
                         <li className="section-enrollee__item"> МАГИСТРАТУРА
-                            <ul className="section-enrollee__list">
+                            <ol className="section-enrollee__list">
                                 <li className="section-enrollee__item">
                                     Направление «Строительство»:
-                                    <ul className="section-enrollee__list">
+                                    <ol type="a" className="section-enrollee__list">
                                         <li>Водоснабжение и водоотведение</li>
                                         <li> Гидротехническое строительство.</li>
                                         <li> Теплогазоснабжение и вентиляция.</li>
-                                    </ul>
+                                    </ol>
                                 </li>
-                            </ul>
+                            </ol>
                         </li>
                     </ul>
                 </div>
