@@ -5,6 +5,8 @@ import doc2 from '../img/02_footer.jpg'
 import doc3 from '../img/03_footer.jpg'
 
 const Footer = () => {
+
+    const date = new Date;
     return (
         <footer className="footer">
             <div className="footer-top">
@@ -86,6 +88,9 @@ const Footer = () => {
                        href="http://fcior.edu.ru/">
                         Федеральный центр информационно-образовательных ресурсов
                     </a>
+                </div>
+                <div className="fio">
+                    <p>Стрельникова Татьяна Ивановна {date.getFullYear()}</p>
                 </div>
             </div>
         </footer>

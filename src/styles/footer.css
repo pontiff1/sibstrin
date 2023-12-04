@@ -51,7 +51,7 @@
 .footer-top__right {
     text-align: center;
     border-radius: 10px;
-    border: 1px solid rgba(255,255,255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 10px;
     margin-left: 10px;
 }
@@ -93,4 +93,10 @@
 
 .footer-bot__item:not(:last-child) {
     margin-right: 10px;
+}
+
+.fio {
+    text-align: center;
+    padding: 10px;
+    color: rgba(255,255,255, 0.5);
 }
