@@ -6,31 +6,31 @@ import doc3 from '../img/03_footer.jpg'
 
 const Footer = () => {
 
-    const date = new Date;
+    const date = new Date();
     return (
         <footer className="footer">
             <div className="footer-top">
                 <div className="footer-top__left">
                     <div className="footer-top__list">
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/struct/profkom/"
-                           target="_blank">Профком работников
+                           rel="noreferrer" target="_blank">Профком работников
                             НГАСУ(Сибстрин)</a>
                         <a className="footer-top__item btn-effect"
-                           href="http://www.sibstrin.ru/files/vorotnikov/%D0%90kkr_19_05_2020.pdf" target="_blank">Приложения
+                           href="http://www.sibstrin.ru/files/vorotnikov/%D0%90kkr_19_05_2020.pdf" rel="noreferrer" target="_blank">Приложения
                             к свидетельству о государственной аккредитации</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/sveden/document/info/"
-                           target="_blank">Сведения о
+                           rel="noreferrer" target="_blank">Сведения о
                             доходах</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/sveden/"
-                           target="_blank">Контактная информация</a>
+                           rel="noreferrer" target="_blank">Контактная информация</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/phones/"
-                           target="_blank">Телефонная книга</a>
+                           rel="noreferrer" target="_blank">Телефонная книга</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/feedback"
-                           target="_blank">Обращения граждан</a>
+                           rel="noreferrer" target="_blank">Обращения граждан</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/recruits/"
-                           target="_blank">Реестр студентов-призывников</a>
+                           rel="noreferrer" target="_blank">Реестр студентов-призывников</a>
                         <a className="footer-top__item btn-effect" href="http://www.sibstrin.ru/structure/"
-                           target="_blank">Наглядная информация о структуре
+                           rel="noreferrer" target="_blank">Наглядная информация о структуре
                             официального сайта</a>
                     </div>
                 </div>

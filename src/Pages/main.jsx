@@ -14,37 +14,37 @@ const Main = () => {
                 <div className="hr"></div>
                 <p>630008, Новосибирск, ул. Тургенева, 159,</p>
                 <p> ком.352 (лабораторный корпус), </p>
-                <p> тел./факс 8(383)266-75-20,</p>
-                <p><a href="mailto:ief@sibstrin.ru">ief@sibstrin.ru</a></p>
-                <p><a href="http://vk.com/public41210726" target="_blank">http://vk.com/public41210726</a></p>
+                <p> тел./факс <a href="tel:+73832667520"> 8(383)266-75-20</a></p>
+                <p><a href="mailto:ief@sibstrin.ru" >ief@sibstrin.ru</a></p>
+                <p><a href="http://vk.com/public41210726" rel="noreferrer" target="_blank">http://vk.com/public41210726</a></p>
             </div>
             <div className="section-main__content block">
                 <h3>Деканат</h3>
                 <div className="hr"></div>
                 <p>Декан: канд. техн. наук, доцент: <a href="http://www.sibstrin.ru/facult/ief/lecturer/kosolapova/"
-                                                       target="_blank">Косолапова
+                                                       rel="noreferrer" target="_blank">Косолапова
                     Ирина Анатольевна</a></p>
                 <p>Зам. декана: ст.преподаватель: <a
-                    href="http://www.sibstrin.ru/struct/chair/tgiv/tgiv_sotrudniki/saveliev/" target="_blank">Савельев
+                    href="http://www.sibstrin.ru/struct/chair/tgiv/tgiv_sotrudniki/saveliev/" rel="noreferrer" target="_blank">Савельев
                     Евгений Геннадьевич</a></p>
                 <p>Зам. декана:ст. преподаватель: <a
-                    href="http://www.sibstrin.ru/facult/ief/lecturer/strelnikova/" target="_blank">Cтрельникова Татьяна
+                    href="http://www.sibstrin.ru/facult/ief/lecturer/strelnikova/" rel="noreferrer" target="_blank">Cтрельникова Татьяна
                     Ивановна</a></p>
                 <p>Специалист по учебно-методической работе: <a
-                    href="http://www.sibstrin.ru/person/212/" target="_blank">Сурначева Ольга Лирьевна</a></p>
+                    href="http://www.sibstrin.ru/person/212/" rel="noreferrer" target="_blank">Сурначева Ольга Лирьевна</a></p>
             </div>
             <div className="section-main__content block">
                 <h3>Кафедры</h3>
                 <div className="hr"></div>
-                <p><a href="http://www.sibstrin.ru/struct/chair/viv/" target="_blank">Водоснабжения и водоотведения
+                <p><a href="http://www.sibstrin.ru/struct/chair/viv/" rel="noreferrer" target="_blank">Водоснабжения и водоотведения
                     (ВВ)</a></p>
-                <p><a href="http://www.sibstrin.ru/struct/chair/gtbe/" target="_blank">Кафедра гидротехнического
+                <p><a href="http://www.sibstrin.ru/struct/chair/gtbe/" rel="noreferrer" target="_blank">Кафедра гидротехнического
                     строительства, безопасности и экологии (ГТСБЭ)</a></p>
-                <p><a href="http://www.sibstrin.ru/struct/chair/geodez/" target="_blank">Инженерной геодезии (ИГ)</a>
+                <p><a href="http://www.sibstrin.ru/struct/chair/geodez/" rel="noreferrer" target="_blank">Инженерной геодезии (ИГ)</a>
                 </p>
-                <p><a href="http://www.sibstrin.ru/struct/chair/tgiv/" target="_blank">Теплогазоснабжения и вентиляции
+                <p><a href="http://www.sibstrin.ru/struct/chair/tgiv/" rel="noreferrer" target="_blank">Теплогазоснабжения и вентиляции
                     (ТГВ)</a></p>
-                <p><a href="http://www.sibstrin.ru/struct/chair/fiziki_himii/" target="_blank">Физики и Химии</a></p>
+                <p><a href="http://www.sibstrin.ru/struct/chair/fiziki_himii/" rel="noreferrer" target="_blank">Физики и Химии</a></p>
             </div>
         </section>
     );
