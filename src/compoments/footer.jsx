@@ -5,7 +5,7 @@ import doc2 from '../img/02_footer.jpg'
 import doc3 from '../img/03_footer.jpg'
 
 const Footer = () => {
-
+//c
     const date = new Date();
     return (
         <footer className="footer">
